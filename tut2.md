@@ -32,3 +32,38 @@ var roleUpgrader = {
 
 module.exports = roleUpgrader;
 ```
+
+
+# Add more harvesters
+## create a upgrader
+```
+Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Upgrader2' );
+```
+```
+Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Upgrader3' );
+```
+```
+Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Upgrader4' );
+```
+```
+Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Upgrader5' );
+```
+
+
+
+### add upgrader roles
+```
+Game.creeps['Upgrader2'].memory.role = 'upgrader';
+```
+```
+Game.creeps['Upgrader3'].memory.role = 'upgrader';
+```
+```
+Game.creeps['Upgrader4'].memory.role = 'upgrader';
+```
+```
+Game.creeps['Upgrader5'].memory.role = 'upgrader';
+```
+
+
+
