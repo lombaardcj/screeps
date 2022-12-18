@@ -113,9 +113,19 @@ module.exports.loop = function () {
 }
 ```
 
-# Create a big harvester
+# Create a medium harvester
+```
+Game.spawns['Spawn1'].spawnCreep( [WORK,WORK,CARRY,MOVE,MOVE],
+    'HarvesterMedium',
+    { memory: { role: 'harvester' } } );
+```
+
+### build bigger harvester
+
 ```
 Game.spawns['Spawn1'].spawnCreep( [WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE],
     'HarvesterBig',
     { memory: { role: 'harvester' } } );
 ```
+
+
